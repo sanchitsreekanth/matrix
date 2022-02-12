@@ -33,6 +33,6 @@ for line, delay in lines.items():
         time.sleep(2)
 
     if not line.startswith("Knock"):
-        os.system("clear")
+        clear()
 time.sleep(3)
 clear()
